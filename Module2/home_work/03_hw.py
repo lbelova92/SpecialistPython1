@@ -31,3 +31,8 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+x=float(input('Введите стоимость 1 ед товара'))
+i=1
+while i<=20:
+    print(i, i*x, 'Rub')
+    i=i+1
