@@ -10,3 +10,10 @@
 # 1234
 
 # TODO: your code here
+n=int(input("n: "))
+stroka=""
+i=1
+while i<=n:
+    stroka=stroka + str(i)
+    print(stroka)
+    i+=1
