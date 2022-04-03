@@ -7,3 +7,10 @@
 # Формат выходных данных: Необходимо вывести сумму чисел написанных на кирпичах.
 
 # TODO: your code here
+n=int(input("уровень пирамиды: "))
+total=0
+i=1
+while i<=n:
+    total=total+i
+    i+=1
+print(total)
