@@ -3,3 +3,7 @@
 # то программа запрашивает ввод снова.
 
 # TODO: your code here
+question=input("Введите хоть что-нибудь: ")
+answer="хватит"
+while question!=answer:
+    question = input("Введите хоть что-нибудь: ")
