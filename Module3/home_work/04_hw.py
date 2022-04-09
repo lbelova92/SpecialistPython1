@@ -5,3 +5,15 @@
 # Пример:
 # Дано: [2, -5, 8, 9, -25, 25, 4]
 # Результат: [3, 5, 2]
+from random import randint
+n=int(input('n:'))
+k=0
+summa=0
+numbers=[]
+for i in range(n):
+    numbers.append(randint(-100,100))
+print(numbers)
+for k in numbers:
+    if k>0 and ((k**(1/2))*10-((k**(1/2))//1)*10)==0:
+        numbers1=[k**(1/2)]
+print(numbers1)
