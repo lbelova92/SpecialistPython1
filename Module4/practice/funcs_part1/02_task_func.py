@@ -7,6 +7,14 @@ def palindrome(number):
     pass
 
 
+def palindrome(number):
+    return str(number)==str(number)[::-1]
+number=345
+if palindrome(number):
+    print("yes")
+else:
+    print("no")
+
 # Тестируем функцию
 print(palindrome(3454))
 print(palindrome(3443))
